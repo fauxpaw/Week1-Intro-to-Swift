@@ -5,6 +5,8 @@
 * Declare and implement a dictionary that can contain as values Strings, Ints, etc
 * Declare a dictionary of string values. Declare a function that takes in a string and searches dictionary for it. Use **filter**
 * Write examples for **union, intersect, subtract, exclusive** Or set operations
+* Write a function that counts repeating words and prints out the count of each
+* Add two numbers without using “+”
 
 ###Reading Assignment
 * Swift Programming Guide
