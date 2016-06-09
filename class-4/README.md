@@ -19,7 +19,7 @@
   * Methods
   * Error Handling
   * Generics
-  * Functional Programming
+  * [Functional Programming](https://www.raywenderlich.com/82599/swift-functional-programming-tutorial)
   * [Protocol Oriented Programming](https://developer.apple.com/videos/play/wwdc2015/408/)
 
 ##Other Resources
