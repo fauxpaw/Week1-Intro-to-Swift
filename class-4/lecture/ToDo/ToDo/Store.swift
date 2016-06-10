@@ -7,3 +7,21 @@
 //
 
 import Foundation
+
+class Store: ObjectStoreProtocol
+{
+    static let dataBase = Store()
+    private init()
+    {
+        if let
+            data = NSData(contentsOfFile: String.archivePath(.Default)),
+            storedItems = NSKeyedUnarchiver.unarchiveObjectWithData(data) as? [ToDo] {
+            self.errands = storedItems
+        }
+
+    }
+    
+    typealias Chore = ToDo
+    var errands = [Chore]()
+}
+

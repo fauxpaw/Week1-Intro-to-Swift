@@ -7,3 +7,23 @@
 //
 
 import Foundation
+
+enum ArchiveComponent : String
+{
+    
+    case Default = "Archives"
+}
+
+
+extension String {
+    
+//    static func archivePath(component: ArchiveComponent) -> String
+//    {
+//        return NSString(string: NSHomeDirectory()).stringByAppendingPathComponent(component.rawValue)
+//    }
+
+    static func archivePath(component: ArchiveComponent) -> String
+    {
+        return NSString(string: NSHomeDirectory()).stringByAppendingPathComponent(component.rawValue)
+    }
+}

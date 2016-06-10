@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol Identity
+{
+    var id: String {get set}
+}
