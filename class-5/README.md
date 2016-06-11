@@ -5,6 +5,10 @@
 * Write a function to return three highest numbers from an array of Integers.
 * Stretch Goal: Write a generic function for the above challenge (highest numbers).
 
+###Reading Assignment:
+* Cracking the coding Interview/Programming Interviews Exposed:
+  * Arrays and Strings
+
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)
 * [Grading Rubrics](../../Resources/)
