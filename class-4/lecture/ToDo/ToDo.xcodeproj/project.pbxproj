@@ -13,7 +13,6 @@
 		1CA2F7121C3C2B6400757A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA2F7111C3C2B6400757A21 /* Assets.xcassets */; };
 		1CA2F7151C3C2B6400757A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA2F7131C3C2B6400757A21 /* LaunchScreen.storyboard */; };
 		1CA2F7281C3DB2C200757A21 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2F7271C3DB2C200757A21 /* NewItemViewController.swift */; };
-		4CED77301D0A120200654AA9 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED772F1D0A120200654AA9 /* ToDo.swift */; };
 		4CED77321D0A129600654AA9 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED77311D0A129600654AA9 /* Identity.swift */; };
 		4CED77341D0A12C100654AA9 /* ObjectStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED77331D0A12C100654AA9 /* ObjectStoreProtocol.swift */; };
 		4CED77361D0A130000654AA9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CED77351D0A130000654AA9 /* Store.swift */; };
@@ -30,7 +29,6 @@
 		1CA2F7141C3C2B6400757A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CA2F7161C3C2B6400757A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CA2F7271C3DB2C200757A21 /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
-		4CED772F1D0A120200654AA9 /* ToDo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		4CED77311D0A129600654AA9 /* Identity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
 		4CED77331D0A12C100654AA9 /* ObjectStoreProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectStoreProtocol.swift; sourceTree = "<group>"; };
 		4CED77351D0A130000654AA9 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 		1CA2F7231C3DA3C700757A21 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4CED772F1D0A120200654AA9 /* ToDo.swift */,
 				4CED77391D0AA81000654AA9 /* ToDo.swift */,
 				4CED77311D0A129600654AA9 /* Identity.swift */,
 				4CED77331D0A12C100654AA9 /* ObjectStoreProtocol.swift */,
@@ -204,7 +201,6 @@
 				4CED77341D0A12C100654AA9 /* ObjectStoreProtocol.swift in Sources */,
 				4CED77321D0A129600654AA9 /* Identity.swift in Sources */,
 				1CA2F70B1C3C2B6400757A21 /* AppDelegate.swift in Sources */,
-				4CED77301D0A120200654AA9 /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
